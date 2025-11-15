@@ -47,7 +47,7 @@ h1 {
     background-color: var(--accent1-color);
     color: var(--accent2-color)
 }
-article {
+.hero article {
     position: absolute;
     bottom: 10px;
     height: 125px;
@@ -55,6 +55,8 @@ article {
     padding: 10px;
     margin: 16px;
     background-color: var(--secondary-color);
+    font-family: var(--body-font);
+    opacity: .86;
     font-family: var(--body-font);
 }
 .hero article img {
