@@ -115,7 +115,6 @@ h2 {
     position: absolute;
     bottom: 10px;
     height: 125px;
-    bottom: 0;
     padding: 10px;
     margin: 16px;
     background-color: var(--secondary-color);
