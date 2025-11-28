@@ -120,7 +120,6 @@ h2 {
     background-color: var(--secondary-color);
     font-family: var(--body-font);
     opacity: .86;
-    font-family: var(--body-font);
 }
 
 .hero article img {
