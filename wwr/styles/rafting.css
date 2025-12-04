@@ -31,7 +31,7 @@ header {
 header,
 main,
 footer {
-    width: 850px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -161,10 +161,115 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
 }
 
+hr {
+    margin: 10px 0;
+    width: 100%;
+    border: 5px #b81919 solid;
+}
+
 footer {
     display: grid;
     grid-template-columns: auto 350px;
     align-items: center;
     background-color: #3f3f3f;
     color: var(--accent2-color);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border: 8px;
+}
+
+form label {
+    grid-column: 1 / 2;
+    align-self: center;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    grid-column: 2 / 3;
+    padding: 0.5rem;
+    border: 1px solid var(--accent2-color);
+    border-radius: 4px;
+    width: 100%;
+}
+
+fieldset {
+    grid-column: 1 / 3;
+    border: none;
+    margin: 1rem 0;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+fieldset label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-map-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.newsletter1 {
+    display: grid;
+    grid-template-columns: 1em 1fr;
+    gap: 1em;
+    grid-column: 1/-1;
+}
+
+.newsletter1 input {
+    grid-column: 1;
+}
+
+.newsletter1 label {
+    grid-column: 2;
+}
+
+.submit-button {
+    grid-column: 1 / 3;
+    justify-self: center;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    font-family: var(--body-font);
+    color: var(--primary-color);
+}
+
+.employees img {
+    width: 100%;
+    border: 10px;
+}
+
+.employees figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
 }

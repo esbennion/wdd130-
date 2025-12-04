@@ -2,7 +2,7 @@
     margin: 1rem;
     padding: 0;
     box-sizing: border-box;
-    color: #333
+    color: #0f0f0f
 }
 
 body {
@@ -32,7 +32,7 @@ h2 {
 form {
     width: auto;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1px;
     border: 1px solid rgb(0, 0, 0/.1);
     border-radius: 0.5rem;
     background-color: bisque;
@@ -63,7 +63,7 @@ textarea {
 }
 
 label {
-    text-align: left;
+    text-align: center;
     padding-right: 1rem;
 }
 
@@ -95,12 +95,15 @@ button:hover {
 }
 
 footer {
+    display: grid;
+    grid-template-columns: auto 350px;
+    background-color: rgb(110, 52, 52);
     margin: 1rem auto 0;
     width: 650px;
+    color: white;
     text-align: center;
     font-size: .8rem;
-    color: gray;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #fefefe;
 }
 
 .form-item {
