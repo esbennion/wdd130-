@@ -45,13 +45,15 @@
                 <input type="text" id="useremail" name="useremail" required>
                 <fieldset>
                     <legend>Purpose of Message:</legend>
-                    <label><input type="radio" id="purpose" value="general" required>General Inquiry</label>
-                    <label><input type="radio" id="purpose" value="reservation">Reservation Question</label>
-                    <label><input type="radio" id="purpose" value="suggestion">Website Suggestion</label>
+                    <label><input type="radio" id="purpose" name="purpose" value="general" required>General
+                        Inquiry</label>
+                    <label><input type="radio" id="purpose" name="purpose" value="reservation">Reservation
+                        Question</label>
+                    <label><input type="radio" id="purpose" name="purpose" value="suggestion">Website Suggestion</label>
                     <label for="message">Your Message: </label>
                     <textarea id="message" name="message" rows="5" cols="30" required></textarea>
                     <div class="newsletter1">
-                        <input type="checkbox" id="subscribe" value="Yes">
+                        <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
                         <label for="newsletter">Please subscribe me to the monthly newsletter!</label>
                     </div>
                 </fieldset>
