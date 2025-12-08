@@ -197,7 +197,6 @@ article {
 
 .adventures img {
     display: grid;
-    grid-column: 2 6;
     height: auto;
     border-radius: 10%;
 }
