@@ -40,9 +40,8 @@ h2 {
     display: block;
     justify-content: left;
     font-family: var(--body-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
     text-align: center;
-    padding: 1em 0;
     font-weight: 900;
 }
 
@@ -198,7 +197,7 @@ article {
 
 .adventures img {
     display: grid;
-    grid-column: 2, 6;
+    grid-column: 2 6;
     height: auto;
     border-radius: 10%;
 }
